@@ -11,7 +11,7 @@ ext {
 
     publishedGroupId = 'com.gasbuddy.mobile'
     artifact = 'rxsse'
-    libraryVersion = '0.9'
+    libraryVersion = '0.9.1'
 
     libraryName = 'RxSSE'
     libraryDescription = 'A retrofit call adapter that translates server sent events into an RxJava/RxKotlin stream'
@@ -47,7 +47,7 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 1
+        versionCode 2
         versionName "1.0"
 
         compileOptions {
